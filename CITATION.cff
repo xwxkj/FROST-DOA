@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "FROST-DOA: A Fuzzy Rule-Based Model for Adaptive Expert Selection in Robust Direction-of-Arrival Estimation"
+message: "If you use this software or benchmark, please cite the accompanying FROST-DOA manuscript."
+type: software
+authors:
+  - family-names: Xu
+    given-names: Kaijie
+  - family-names: Pedrycz
+    given-names: Witold
+  - family-names: Tang
+    given-names: Xiaoan
+version: 1.0.0
+date-released: 2026-07-13
+license: MIT
+
+repository-code: "https://github.com/xwxkj/FROST-DOA"

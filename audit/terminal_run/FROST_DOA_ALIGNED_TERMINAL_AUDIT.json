@@ -1,0 +1,74 @@
+{
+  "status": "pass",
+  "asset_hash_pass": true,
+  "reference_verification_pass": true,
+  "common_sample_id_pass": true,
+  "methods": [
+    "FROST-DOA",
+    "SubspaceNet + residual selector",
+    "SOMP + MDL",
+    "Root-MUSIC + MDL",
+    "Toeplitz-MUSIC + MDL",
+    "ESPRIT + MDL",
+    "FBSS-MUSIC + MDL",
+    "MUSIC + MDL",
+    "DA-MUSIC + MDL",
+    "SBL + MDL"
+  ],
+  "n_methods": 10,
+  "n_samples_per_method": 1200,
+  "font_family": "Times New Roman",
+  "overall_summary_sha256": "7f16938bfe1b5727c56c41cfe6db002fee61acb7e8f5415b4d5935643234fe86",
+  "scenario_summary_sha256": "cbb22f775614972ff90afdfbf992e9867252b720ae7c64ffcabdcd6d89465ae8",
+  "paired_summary_sha256": "79b1d81f2f5a081f3365fdd8627643164511964f90c333974a6c9d1eff8cf0ac",
+  "scenario_winners": {
+    "U10_hard_mixed_K2": {
+      "method": "FROST-DOA",
+      "mean_rmse_deg": 17.406343857059326
+    },
+    "U11_colored_lowSNR_K2": {
+      "method": "FROST-DOA",
+      "mean_rmse_deg": 17.239674251593012
+    },
+    "U12_close_K2": {
+      "method": "FROST-DOA",
+      "mean_rmse_deg": 2.0157988864925303
+    },
+    "U1_clean_K1": {
+      "method": "Root-MUSIC + MDL",
+      "mean_rmse_deg": 0.0996164232425468
+    },
+    "U2_clean_K2": {
+      "method": "Root-MUSIC + MDL",
+      "mean_rmse_deg": 0.2009426751086383
+    },
+    "U3_clean_K3": {
+      "method": "Root-MUSIC + MDL",
+      "mean_rmse_deg": 0.3893035483538077
+    },
+    "U4_lowSNR_few_K2": {
+      "method": "FROST-DOA",
+      "mean_rmse_deg": 19.945118829000904
+    },
+    "U5_lowSNR_few_K3": {
+      "method": "SubspaceNet + residual selector",
+      "mean_rmse_deg": 19.88802990870994
+    },
+    "U6_coherent_K2": {
+      "method": "FROST-DOA",
+      "mean_rmse_deg": 2.53845905329494
+    },
+    "U7_coherent_K3": {
+      "method": "FROST-DOA",
+      "mean_rmse_deg": 4.766610397909838
+    },
+    "U8_mismatch_K2": {
+      "method": "Toeplitz-MUSIC + MDL",
+      "mean_rmse_deg": 1.960290360299656
+    },
+    "U9_heavytail_K3": {
+      "method": "FROST-DOA",
+      "mean_rmse_deg": 6.518872212433888
+    }
+  }
+}

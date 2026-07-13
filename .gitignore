@@ -1,0 +1,30 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+
+# Runtime-only products.
+logs/
+results/work/
+results/tmp/
+figures/terminal_run/
+audit/manuscript/
+*.zip
+
+# Third-party repositories/checkpoints stay external.
+official_repos/
+checkpoints/
+
+# HDF5 files are ignored by default except the two release fixtures.
+*.h5
+!data/smoke_fixture.h5
+!data/test_fixture_mc100_aligned.h5
+
+# Local and generated files
+*.save
+*.egg-info/
+results/smoke/

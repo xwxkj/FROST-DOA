@@ -1,0 +1,9 @@
+{
+  "method": "FROST-DOA",
+  "mean_rmse": 7.817963185611981,
+  "median_rmse": 1.1083489301980873,
+  "mean_mae": 6.337075250560039,
+  "source_number_accuracy_pct": 75.75,
+  "outlier_gt5_pct": 37.083333333333336,
+  "n": 1200
+}

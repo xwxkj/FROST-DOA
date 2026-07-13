@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "assets": [
+    {
+      "path": "data/test_fixture_mc100_aligned.h5",
+      "expected_sha256": "2ec17bd1f434d442cb668dcf477198517bdef107b1a7aa384eb5623ffd0c4358",
+      "actual_sha256": "2ec17bd1f434d442cb668dcf477198517bdef107b1a7aa384eb5623ffd0c4358",
+      "passed": true
+    },
+    {
+      "path": "reference/frost_doa_frozen_sample_scores.csv",
+      "expected_sha256": "6ae65e0054dda2c6a950b622e170136c82df3b08b73e1a75ecef8dc6e668d6d8",
+      "actual_sha256": "6ae65e0054dda2c6a950b622e170136c82df3b08b73e1a75ecef8dc6e668d6d8",
+      "passed": true
+    }
+  ]
+}

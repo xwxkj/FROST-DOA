@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "n_actual": 1200,
+  "n_reference": 1200,
+  "n_matched": 1200,
+  "absolute_tolerance": 1e-10,
+  "differences": {
+    "set_rmse": {
+      "max_abs_diff": 2.398081733190338e-13,
+      "mismatch_count": 0
+    },
+    "set_mae": {
+      "max_abs_diff": 1.8252066524837574e-12,
+      "mismatch_count": 0
+    },
+    "k_hat": {
+      "max_abs_diff": 0.0,
+      "mismatch_count": 0
+    },
+    "k_acc": {
+      "max_abs_diff": 0.0,
+      "mismatch_count": 0
+    },
+    "k_abs_err": {
+      "max_abs_diff": 0.0,
+      "mismatch_count": 0
+    },
+    "outlier_5deg": {
+      "max_abs_diff": 0.0,
+      "mismatch_count": 0
+    }
+  }
+}
