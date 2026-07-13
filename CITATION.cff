@@ -5,7 +5,7 @@ type: software
 authors:
   - family-names: Xu
     given-names: Kaijie
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-07-13
 license: MIT
 repository-code: "https://github.com/xwxkj/FROST-DOA"
