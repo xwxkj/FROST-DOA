@@ -5,12 +5,7 @@ type: software
 authors:
   - family-names: Xu
     given-names: Kaijie
-  - family-names: Pedrycz
-    given-names: Witold
-  - family-names: Tang
-    given-names: Xiaoan
 version: 1.0.0
 date-released: 2026-07-13
 license: MIT
-
 repository-code: "https://github.com/xwxkj/FROST-DOA"

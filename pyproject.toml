@@ -11,8 +11,6 @@ requires-python = ">=3.10"
 license = {text = "MIT"}
 authors = [
   {name = "Kaijie Xu"},
-  {name = "Witold Pedrycz"},
-  {name = "Xiaoan Tang"},
 ]
 dependencies = [
   "numpy>=1.24",
