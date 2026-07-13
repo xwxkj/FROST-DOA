@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Aggregate aligned sample scores into manuscript tables and paired statistics."""
+
 from __future__ import annotations
 
 import argparse

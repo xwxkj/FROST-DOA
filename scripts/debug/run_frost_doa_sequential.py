@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Run FROST-DOA on the aligned fixture and write predictions and sample scores."""
+
 from __future__ import annotations
 
 import argparse

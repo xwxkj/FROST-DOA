@@ -5,6 +5,7 @@ This is the recommended terminal entry point for the full MC100 experiment. Each
 worker owns one scenario and writes a temporary CSV; the parent process then
 merges the files in deterministic scenario/sample order.
 """
+
 from __future__ import annotations
 
 import argparse

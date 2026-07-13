@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Score one prediction CSV against the aligned FROST-DOA fixture."""
+
 from __future__ import annotations
 
 import argparse

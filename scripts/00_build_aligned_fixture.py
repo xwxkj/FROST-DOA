@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Generate the exact MC100 fixture aligned with the frozen FROST-DOA scores."""
+
 from __future__ import annotations
 import argparse
 from pathlib import Path

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Verify hashes of the aligned benchmark fixture and frozen FROST reference."""
+
 from __future__ import annotations
 
 import argparse

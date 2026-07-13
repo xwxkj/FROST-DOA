@@ -22,6 +22,7 @@ Fairness:
 - Final prediction CSV sets uses_true_K=false and uses_scenario_label=false.
 - The Oracle-K Step2B diagnostic remains separate and is not used for test labels.
 """
+
 from __future__ import annotations
 import os, sys, json, math, datetime, subprocess, traceback
 from pathlib import Path

@@ -5,6 +5,7 @@ The figures are written as 600-dpi PNG plus vector PDF/SVG. Colors are chosen
 for print readability and color-vision accessibility; hatches and markers keep
 methods distinguishable when printed in grayscale.
 """
+
 from __future__ import annotations
 
 import argparse

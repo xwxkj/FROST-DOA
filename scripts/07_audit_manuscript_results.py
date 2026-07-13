@@ -5,6 +5,7 @@ The script never edits the manuscript. It produces a machine-readable JSON and
 a concise Markdown report. A nonzero exit status means the manuscript still
 contains stale metrics or internal development names and must not be submitted.
 """
+
 from __future__ import annotations
 
 import argparse
