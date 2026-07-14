@@ -1,5 +1,7 @@
 # FROST-DOA
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21347809.svg)](https://doi.org/10.5281/zenodo.21347809)
+
 **FROST-DOA: A Fuzzy Rule-Based Model for Adaptive Expert Selection in Robust Direction-of-Arrival Estimation**
 
 FROST-DOA is a practical model-driven direction-of-arrival estimator. It combines scale-normalized diagnostics, eight fuzzy operating-regime rules, a bank of subspace and sparse experts, two fixed linear calibration rankers, deterministic bootstrap checks, and validation-fixed physics safeguards. Inference uses only the observed complex snapshots and nominal eight-sensor half-wavelength uniform-linear-array geometry; it does not use the true source number or a scenario label.
@@ -100,3 +102,11 @@ An audit found that an earlier development fixture reused the same sample identi
 ## Third-party code
 
 DA-MUSIC and SubspaceNet are not redistributed. Their official repository commits and execution environments are recorded in the experiment logs. Users must obtain and comply with the upstream licenses.
+
+## Citation
+
+When using FROST-DOA or the aligned benchmark, please cite the archived software release:
+
+> K. Xu, *FROST-DOA: A Fuzzy Rule-Based Model for Adaptive Expert Selection in Robust Direction-of-Arrival Estimation*, version 1.0.1, Zenodo, 2026. doi: 10.5281/zenodo.21347810.
+
+For the latest archived version of the software, use the all-versions DOI: `10.5281/zenodo.21347809`.
