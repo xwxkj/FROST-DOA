@@ -28,3 +28,6 @@ checkpoints/
 *.save
 *.egg-info/
 results/smoke/
+
+# Internal development documentation
+docs/
